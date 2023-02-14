@@ -2,4 +2,5 @@ import re
 a='i like the world.i like to be an indian'
 b='like'
 c='love'
-print(resub.b,c,a)
+d=re.sub(b,c,a)
+print(d)
